@@ -1,0 +1,39 @@
+nav {
+    background-color: cornflowerblue;
+    height: 10vh;
+    margin: -15px;
+    display: block;
+}
+.nav-bar {
+    display: flex;
+    text-align: center;
+}
+
+.nav-bar li {
+    list-style: none;
+    padding: 20px;
+    font-size: large;
+    font-family: "Darker Grotesque", sans-serif;
+}
+
+.nav-bar li {
+    flex-grow: 3;
+}
+
+.tableauPlaceholder {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    border: 2px black solid;
+}
+
+.nav-bar li a {
+    color: white;
+}
+
+.nav-bar li a:hover {
+    font-size: 30px;
+    text-decoration: none;
+}
